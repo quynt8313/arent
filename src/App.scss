@@ -1,0 +1,43 @@
+@import 'styles/_variables.scss';
+@import 'styles/mixin.scss';
+/* add fonts */
+@font-face {
+  font-family: 'Notosan';
+  src: url('styles//font/din1451alt.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
+
+body,
+p,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+ul {
+  margin: 0;
+  padding: 0;
+}
+
+img {
+  -webkit-user-drag: none;
+  -khtml-user-drag: none;
+  -moz-user-drag: none;
+  -o-user-drag: none;
+  user-drag: none;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
+* {
+  box-sizing: border-box;
+  font-family: 'Notosan';
+}
+.main{
+  margin-top: $header_height;
+}
+
